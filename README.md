@@ -1,3 +1,3 @@
-# Project 2
+# Chat Project
 
 Web Programming with Python and JavaScript
