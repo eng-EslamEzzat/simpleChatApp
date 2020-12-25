@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{%block title%}Chat{%endblock%}
+
+{%block body%}
+    <h2>Chat, Roon:{{roomid}}</h2>
+    <ul id="chat" >
+
+    </ul>
+    <hr>
+    <input type="text" id="message">
+    <button id="send" >send</button>
+{%endblock%}

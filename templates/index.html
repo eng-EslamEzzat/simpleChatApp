@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{%block title%}chat app{%endblock%}
+
+{%block body%}
+<h1>Chat App</h1>
+<form action="/main">
+    <div>
+        <label for="">User Name:</label>
+        <input type="text" name="username" placeholder="Enter username">
+    </div>
+    <br>
+    <div>
+        <label for="">Room ID:</label>
+        <input type="text" name="roomid" placeholder="Enter rome number">
+    </div>
+    <br><hr>
+    <button type="submit" >Submit</button> 
+</form>
+{%endblock%}
